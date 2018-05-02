@@ -25,3 +25,4 @@ def plot_knn_classification(n_neighbors=1):
     training_points = discrete_scatter(X[:, 0], X[:, 1], y)
     plt.legend(training_points + test_points, ["training class 0", "training class 1",
                                                "test pred 0", "test pred 1"])
+    plt.show()
